@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: SpringSecurity
+
+  datasource:
+    url: jdbc:postgresql://localhost:5430/spring-security
+    password: postgres
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+
+  security:
+    remember-me:
+      secret-key: MY_KEY
